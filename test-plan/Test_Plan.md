@@ -38,5 +38,4 @@ All seven test cases executed and reviewed; each data-driven scenario has an Act
 - Requirements are portfolio assumptions, not approved product requirements.
 - Results are self-reported observations; no screenshot/video evidence was retained.
 - Latest execution date and browser build were not recorded.
-- A historical URL discrepancy (BUG-001) did not reproduce during the latest TC-007 run and is not a confirmed current defect.
 - Masking verifies display behavior only.
