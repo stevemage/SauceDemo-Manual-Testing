@@ -14,6 +14,7 @@ Shopping cart addition/removal, multi-item behavior, prices, required checkout f
 - [Requirements](Requirements.md)
 - [Test plan](Test_Plan.md)
 - [Test cases and observed results](Test_Cases.md)
+- [Detailed Test Cases](Detailed_Test_Cases.md)
 - [Dataset matrix](Test_Data.csv)
 - [Execution report](Test_Execution_Report.md)
 - [Test summary report](Test_Summary_Report.md)

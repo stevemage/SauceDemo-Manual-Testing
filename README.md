@@ -51,6 +51,7 @@ Eleven manually designed and executed test cases covering:
 - [Requirements](Assignment-03-Shopping-Cart-Checkout/Requirements.md)
 - [Test Plan](Assignment-03-Shopping-Cart-Checkout/Test_Plan.md)
 - [Test Cases](Assignment-03-Shopping-Cart-Checkout/Test_Cases.md)
+- [Detailed Test Cases](Assignment-03-Shopping-Cart-Checkout/Detailed_Test_Cases.md)
 - [Test Data](Assignment-03-Shopping-Cart-Checkout/Test_Data.csv)
 - [Test Execution Report](Assignment-03-Shopping-Cart-Checkout/Test_Execution_Report.md)
 - [Test Summary Report](Assignment-03-Shopping-Cart-Checkout/Test_Summary_Report.md)
