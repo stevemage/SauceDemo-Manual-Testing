@@ -56,6 +56,21 @@ Eleven manually designed and executed test cases covering:
 - [Test Execution Report](Assignment-03-Shopping-Cart-Checkout/Test_Execution_Report.md)
 - [Test Summary Report](Assignment-03-Shopping-Cart-Checkout/Test_Summary_Report.md)
 
+### Assignment 4 – Test Design Techniques
+
+**Status: Completed (test design)**
+
+Four techniques applied to the SauceDemo checkout flow using model requirements:
+
+- Equivalence Partitioning for Postal Code validation
+- Boundary Value Analysis for Postal Code length
+- Decision Table Testing for combinations of checkout field conditions
+- State Transition Testing for checkout navigation, including a cancellation scenario
+
+**Documentation:**
+
+- [Assignment Overview and Test Design](Assignment-04-Test-Design-Techniques/README.md)
+
 ## Test Environment
 
 - Application: SauceDemo
@@ -95,15 +110,3 @@ Passing test cases do not demonstrate that the application is free of defects.
 - Test execution reporting
 - Test coverage analysis
 - Test summary reporting
-
-## Future Work
-
-**Assignment 4 – Test Design Techniques**
-
-Planned topics include:
-
-- Equivalence Partitioning
-- Boundary Value Analysis
-- Decision Tables
-
-The goal is to improve systematic test coverage and identification of negative and boundary scenarios.
