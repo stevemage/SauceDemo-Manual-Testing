@@ -1,0 +1,8 @@
+﻿Dataset,First Name,Last Name,ZIP/Postal Code,Expected and reported error,Status
+DS-01,,Doe,50003,Error: First Name is required,PASS
+DS-02,John,,50003,Error: Last Name is required,PASS
+DS-03,,,50003,Error: First Name is required,PASS
+DS-04,,,,Error: First Name is required,PASS
+DS-05,John,Doe,,Error: Postal Code is required,PASS
+DS-06,John,,,Error: Last Name is required,PASS
+DS-07,,Doe,,Error: First Name is required,PASS

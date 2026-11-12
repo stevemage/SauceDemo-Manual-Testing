@@ -1,30 +1,108 @@
-# SauceDemo – Manual Login Testing
+# SauceDemo – Manual Testing Portfolio
 
-A practical manual QA portfolio project covering the login functionality of [SauceDemo](https://www.saucedemo.com/).
+A practical manual software QA portfolio based on [SauceDemo](https://www.saucedemo.com/).
 
-## Scope
-Seven manually designed and reviewed test cases covering login field visibility, successful and unsuccessful authentication, mandatory fields, validation messages, password masking, and post-login navigation. This is a focused login feature exercise, **not** a full application test or security assessment.
+The project demonstrates manual test analysis, test case design, test execution, defect handling, requirements clarification, and test reporting.
 
-## Results
-- **7 test cases: PASS** based on recorded manual observations.
-- TC-004: four data-driven scenarios (all PASS).
-- TC-005: three validation-message checks (all PASS), evaluated using evidence recorded during TC-004 execution; not a separate rerun.
-- No currently reproducible defects were confirmed during this test round.
+## Project Structure
 
-## Project files
-- [`test-plan/Test_Plan.md`](test-plan/Test_Plan.md) – scope, approach, environment and limitations.
-- [`test-cases/Login_Test_Cases.xlsx`](test-cases/Login_Test_Cases.xlsx) – requirements, test cases, data sets and execution records.
-- [`test-results/Test_Execution_Report.md`](test-results/Test_Execution_Report.md) – execution summary and observed results.
-- [`bug-reports/README.md`](bug-reports/README.md) – historical observation and defect-reporting policy.
+### Assignment 1 – Login Testing
 
-## Environment
-Manual testing on SauceDemo in a desktop browser. Previous baseline: Windows 11 25H2 and Microsoft Edge 154.0.4258.48. The exact browser version and execution date for the latest run were **not recorded**; do not treat the baseline as verified for that run.
+**Status: Completed**
 
-## Requirements disclaimer
-REQ-001 to REQ-007 are **portfolio exercise assumptions** derived from expected application behavior. They are not official SauceDemo requirements. In particular, REQ-007 assumes navigation to `/inventory.html` after successful login; this URL was observed in the latest run.
+Seven manually designed and reviewed test cases covering:
 
-## Evidence and reproducibility
-Actual Results were recorded by the tester and reviewed for consistency with Expected Results. No screenshots, video captures, browser logs, or independently verifiable execution artifacts are included. Password masking is a visual check, not a claim that the password is encrypted or inaccessible to JavaScript.
+- Login field visibility
+- Successful and unsuccessful authentication
+- Mandatory field validation
+- Error messages
+- Password masking
+- Navigation after successful login
 
-## Tools and skills
-Manual functional testing, positive/negative testing, test case design, data-driven scenarios, expected vs. actual results, defect triage, documentation and traceability.
+**Results:** 7 test cases passed.
+
+**Documentation:**
+
+- [Test Plan](Assignment-01-Login-Testing/test-plan/Test_Plan.md)
+- [Test Cases and Test Data](Assignment-01-Login-Testing/test-cases/Login_Test_Cases.xlsx)
+- [Test Execution Report](Assignment-01-Login-Testing/test-results/Test_Execution_Report.md)
+- [Bug Reports](Assignment-01-Login-Testing/bug-reports/README.md)
+
+### Assignment 3 – Shopping Cart & Checkout Testing
+
+**Status: Completed**
+
+Eleven manually designed and executed test cases covering:
+
+- Adding and removing products from the shopping cart
+- Adding multiple different products
+- Cart content and price verification
+- Mandatory checkout fields
+- Checkout with valid information
+- Order overview and total price verification
+- Purchase completion
+- Checkout cancellation from two different pages
+
+**Results:** 11 test cases passed in their latest execution. TC-017 has a historical failed execution associated with a subsequently clarified requirement.
+
+**Documentation:**
+
+- [Assignment Overview](Assignment-03-Shopping-Cart-Checkout/README.md)
+- [Requirements](Assignment-03-Shopping-Cart-Checkout/Requirements.md)
+- [Test Plan](Assignment-03-Shopping-Cart-Checkout/Test_Plan.md)
+- [Test Cases](Assignment-03-Shopping-Cart-Checkout/Test_Cases.md)
+- [Test Data](Assignment-03-Shopping-Cart-Checkout/Test_Data.csv)
+- [Test Execution Report](Assignment-03-Shopping-Cart-Checkout/Test_Execution_Report.md)
+- [Test Summary Report](Assignment-03-Shopping-Cart-Checkout/Test_Summary_Report.md)
+
+## Test Environment
+
+- Application: SauceDemo
+- Operating system: Windows 11
+- Browser: Microsoft Edge
+- Testing approach: Manual functional testing
+
+The previously documented baseline was Windows 11 25H2 and Microsoft Edge 154.0.4258.48. Exact environment versions and execution dates were not consistently recorded for all tests.
+
+## Requirements Disclaimer
+
+All requirements in this repository are portfolio exercise specifications derived from expected application behavior.
+
+They are not official SauceDemo requirements.
+
+Some acceptance criteria and test data were defined specifically for training purposes.
+
+## Evidence and Limitations
+
+Test execution results are based on observations recorded by the tester.
+
+The repository does not currently include independently verifiable screenshots, video recordings, or backend execution evidence.
+
+Successful order completion was verified through the user interface only. Backend processing and database persistence were not tested.
+
+Passing test cases do not demonstrate that the application is free of defects.
+
+## Skills Demonstrated
+
+- Manual functional testing
+- Positive and negative testing
+- Test case design
+- Data-driven testing
+- Requirements analysis and clarification
+- Expected versus actual results
+- Defect triage and retesting
+- Test execution reporting
+- Test coverage analysis
+- Test summary reporting
+
+## Future Work
+
+**Assignment 4 – Test Design Techniques**
+
+Planned topics include:
+
+- Equivalence Partitioning
+- Boundary Value Analysis
+- Decision Tables
+
+The goal is to improve systematic test coverage and identification of negative and boundary scenarios.
