@@ -71,6 +71,22 @@ Four techniques applied to the SauceDemo checkout flow using model requirements:
 
 - [Assignment Overview and Test Design](Assignment-04-Test-Design-Techniques/README.md)
 
+### Assignment 5 – Exploratory Testing
+
+**Status: Completed**
+
+Exploratory testing of the product list and order PDF covered:
+
+- Product ordering across the full list for all four sort options
+- Sort behavior after returning from a product detail page using **Back to products** and the browser's **Back** button
+- Presence of order details in the generated PDF
+
+**Observation:** Both return methods reset the sort option from **Price (low to high)** to **Name (A to Z)**. Whether the selected sort option should persist remains an open requirement question.
+
+**Documentation:**
+
+- [Exploratory Testing Report](Assignment-05-Exploratory-Testing/README.md)
+
 ## Test Environment
 
 - Application: SauceDemo
